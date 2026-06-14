@@ -1,47 +1,51 @@
-# 🚀 Mini CRM System
+# 🚀 Mini CRM
 
-A simple full-stack Customer Relationship Management (CRM) application built using Node.js, Express, MongoDB, and Vanilla JavaScript.
-
----
-
-## 📌 Project Description
-
-This Mini CRM helps manage leads efficiently with features like adding leads, updating status, tracking notes, and visualizing data using charts.
-
-It demonstrates full-stack development including REST APIs, database integration, and dynamic frontend updates.
+A simple full-stack CRM (Customer Relationship Management) app built using Node.js, Express, MongoDB, and JavaScript.
 
 ---
 
 ## ✨ Features
 
-- ➕ Add new leads
-- 📄 View all leads
-- 🔄 Update lead status (New, Contacted, Converted)
-- 🗑️ Delete leads
-- 📝 Add notes to leads
-- 📊 Dashboard with Chart.js visualization
-- 🔍 Search and filter leads
-- 🌙 Dark mode toggle
-- 🔐 Simple login system (localStorage-based)
+- Add new leads  
+- View all leads  
+- Update lead status (New, Contacted, Converted)  
+- Delete leads  
+- Add notes  
+- Search & filter leads  
+- Dashboard with chart  
+- Dark mode  
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Frontend:**
-- HTML
-- CSS
-- JavaScript
-- Chart.js
-
-**Backend:**
-- Node.js
-- Express.js
-
-**Database:**
-- MongoDB (Mongoose)
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Node.js, Express  
+- Database: MongoDB  
 
 ---
 
-## 📂 Project Structure
+## ▶️ How to Run
 
+1. Go to backend:
+   cd backend
+   npm install
+   node server.js
+
+
+2. Open frontend:
+- Go to `frontend` folder  
+- Open `index.html` using Live Server  
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here later)
+
+---
+
+## 👩‍💻 Author
+
+**Malathi**  
+https://github.com/malathi-maragoni
