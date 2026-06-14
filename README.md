@@ -39,11 +39,14 @@ A simple full-stack CRM (Customer Relationship Management) app built using Node.
 
 ---
 
+
 ## 📸 Screenshots
 
-(Add screenshots here later)
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
----
+### Add Lead
+![Add Lead](screenshots/add-lead.png)
 
 ## 👩‍💻 Author
 
