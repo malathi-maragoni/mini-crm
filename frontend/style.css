@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #111827;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar button {
+  background: red;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  gap: 20px;
+}
+
+.stat {
+  flex: 1;
+  text-align: center;
+}
+
+/* Form */
+.form input {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+/* Buttons */
+button {
+  padding: 8px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+/* Filters */
+.filters {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+}
+
+input, select {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Lead Cards */
+#leads .card {
+  border-left: 5px solid #2563eb;
+}
+/* 🌙 Dark Mode */
+.dark {
+  background: #111827;
+  color: white;
+}
+
+.dark .card {
+  background: #1f2937;
+  color: white;
+}
+
+.dark input, 
+.dark select {
+  background: #374151;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark .sidebar {
+  background: #000;
+}
+.chart-box {
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+}
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+.card {
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}

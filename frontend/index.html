@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini CRM</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>CRM</h2>
+    <p>Dashboard</p>
+
+    <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <h1>📊 Dashboard</h1>
+
+    <!-- Stats -->
+    <div class="stats">
+      <div class="card stat">
+        <h3>Total Leads</h3>
+        <p id="total"></p>
+      </div>
+
+      <div class="card stat">
+        <h3>Converted</h3>
+        <p id="converted"></p>
+      </div>
+    </div>
+
+    <!-- Chart -->
+    <h3>📈 Lead Status Chart</h3>
+    <div class="chart-box">
+      <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- Add Lead -->
+    <div class="card form">
+      <h3>Add Lead</h3>
+      <input id="name" placeholder="Name">
+      <input id="email" placeholder="Email">
+      <button onclick="addLead()">Add</button>
+    </div>
+
+    <!-- Filters -->
+    <div class="filters">
+      <input id="search" placeholder="Search..." onkeyup="loadLeads()">
+
+      <select id="filter" onchange="loadLeads()">
+        <option value="">All</option>
+        <option value="new">New</option>
+        <option value="contacted">Contacted</option>
+        <option value="converted">Converted</option>
+      </select>
+    </div>
+
+    <!-- Leads -->
+    <div id="leads"></div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
